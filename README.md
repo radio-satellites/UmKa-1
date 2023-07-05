@@ -22,6 +22,8 @@ python decoder.py -f umka_1.cadu -o umka_1.fits
 
 This will read CADU frames from "umka_1.cadu" and output to "umka_1.fits" and "umka_1.fits.png."
 
+If you have very noisy frames, CRC checking should be enabled with the ```-crc``` flag. This does take **much** longer, though, so use it wisely!
+
 # Dependencies
 
 The decoder depends on the following packages:
