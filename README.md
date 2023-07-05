@@ -29,3 +29,4 @@ The decoder depends on the following packages:
 PIL/Pillow
 tqdm
 astropy
+crc
