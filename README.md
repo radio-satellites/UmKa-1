@@ -8,6 +8,12 @@ Decode imagery from the UmKa-1 amateur telescope!
 
 As of 2023-07-04, the satellite UmKa-1 is alive and healthy in orbit. This tool decodes **S band dump transmissions** from the spacecraft. This contains high resolution imagery from the telescope on board the satellite. 
 
+**EDIT**: As of Sept 25, 2023, the telescope *and* the S band downlink has failed. The imagery is now transmitted from an engineering camera via the 437.625 MHz downlink as 19200 baud FSK. I currently do not have any recording of this dump, so I am unable to write any decoders. SSTV is planned eventually. 
+
+For more information, see https://telegra.ph/Otchet-o-statuse-missii-orbitalnogo-kosmicheskogo-teleskopa-UmKA-1-RS40S-09-25 (in Russian). 
+
+
+
 # Usage
 
 Input: Derandomized and synchronized CADU (example in repository). 
